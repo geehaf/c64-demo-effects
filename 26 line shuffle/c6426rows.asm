@@ -1,4 +1,4 @@
-* = $0801
+﻿* = $0801
       
       ; Old school C64 demo effects - 26th line text scroller
       ; Geehaf September 2022
@@ -9,6 +9,9 @@
       lda #$7f
       sta $dc0d
       sta $dd0d
+      lda $dc0d
+      lda $dd0d
+      
       lda #$35
       sta $01
 
